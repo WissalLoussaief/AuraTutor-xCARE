@@ -1,0 +1,36 @@
+{
+  "module": "Linear Equations",
+  "target_audience": "Middle/High School",
+  "common_errors": [
+    {
+      "error_code": "ERR_TRANSPOSE_SIGN",
+      "error_description": "Forgetting to change the sign when moving a term across the equals sign.",
+      "student_example": "3x + 4 = 10 -> 3x = 10 + 4",
+      "xai_teacher_rationale_en": "The learner failed to apply the inverse operation (subtraction) when transposing a positive constant. This indicates a gap in balancing equations.",
+      "xai_teacher_rationale_fr": "L'apprenant n'a pas appliqué l'opération inverse (soustraction) lors de la transposition d'une constante positive. Cela indique une lacune dans l'équilibrage des équations.",
+      "magic_hint_en": "Careful! Remember the balance rule: if you move a '+4' to the other side of the '=', it must become its opposite.",
+      "magic_hint_fr": "Attention ! Souviens-toi de la règle de la balance : si tu déplaces un '+4' de l'autre côté du '=', il doit se transformer en son contraire.",
+      "recommended_action": "Trigger Scaffolding: Basic One-Step Equations (x + a = b)"
+    },
+    {
+      "error_code": "ERR_ORDER_OF_OPERATIONS",
+      "error_description": "Inefficient strategy: dividing the coefficient before isolating the variable term.",
+      "student_example": "2x - 5 = 11 -> x - 2.5 = 5.5",
+      "xai_teacher_rationale_en": "While mathematically valid, dividing the entire equation before isolating the variable introduces unnecessary decimals and cognitive load.",
+      "xai_teacher_rationale_fr": "Bien que mathématiquement valide, diviser toute l'équation avant d'isoler la variable introduit des décimales inutiles et une surcharge cognitive.",
+      "magic_hint_en": "Try to get the 'x' completely alone on its side first. It is usually easier to get rid of the standalone numbers (-5) before dealing with the coefficient attached to x.",
+      "magic_hint_fr": "Essaie d'abord d'isoler complètement le terme avec 'x'. Il est généralement plus simple de se débarrasser du nombre seul (-5) avant de diviser par le coefficient.",
+      "recommended_action": "Trigger Scaffolding: Order of Operations in Algebra"
+    },
+    {
+      "error_code": "ERR_COMBINING_LIKE_TERMS",
+      "error_description": "Inability to combine variable terms on opposite sides.",
+      "student_example": "5x = 2x + 12 -> Student is stuck or divides by 5.",
+      "xai_teacher_rationale_en": "The learner struggles conceptually with treating 'x' as a manipulatable quantity across the equals sign.",
+      "xai_teacher_rationale_fr": "L'apprenant a des difficultés conceptuelles à traiter 'x' comme une quantité manipulable de part et d'autre du signe égal.",
+      "magic_hint_en": "Imagine the 'x's are apples. You have 5 apples on the left and 2 on the right. How can you move all the apples to the left side?",
+      "magic_hint_fr": "Imagine que les 'x' sont des pommes. Tu as 5 pommes à gauche et 2 à droite. Comment peux-tu regrouper toutes les pommes du côté gauche ?",
+      "recommended_action": "Trigger Scaffolding: Visualizing Variables as Objects"
+    }
+  ]
+}

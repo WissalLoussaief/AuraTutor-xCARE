@@ -1,0 +1,12 @@
+[theme]
+# Couleur de fond principale
+backgroundColor = "#F0F2F6"
+
+# Couleur de fond secondaire (pour les barres latérales, etc.)
+secondaryBackgroundColor = "#FFFFFF"
+
+# Couleur du texte par défaut
+textColor = "#262730"
+
+# Couleur principale (utilisée pour les boutons, les accents, etc.)
+primaryColor = "#2ECC71"
